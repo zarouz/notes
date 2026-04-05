@@ -1,0 +1,99 @@
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = false
+
+enableSearch = true
+mainSections = ["notes"]
+enableCodeCopy = true
+enableA11y = false
+enableStructuredBreadcrumbs = false
+
+replyByEmail = false
+
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+
+fingerprintAlgorithm = "sha512"
+
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v11.next.forgejo.org"
+
+[header]
+  layout = "basic"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = false
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"
+  showRecent = false
+  showRecentItems = 10
+  showMoreLink = false
+  showMoreLinkDest = "/notes/"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = false
+
+[article]
+  showDate = true
+  showViews = false
+  showLikes = false
+  showDateOnlyInArticle = false
+  showDateUpdated = false
+  showAuthor = true
+  showHero = true
+  heroStyle = "big"
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showCategoryOnly = false
+  showAuthorsBadges = false
+  showWordCount = true
+  showZenMode = false
+  seriesOpened = false
+
+[list]
+  showHero = false
+  showBreadcrumbs = true
+  showSummary = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  showCards = false
+  groupByYear = true
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = true
+  showHero = false
+  showBreadcrumbs = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  cardView = false
+
+[term]
+  showHero = false
+  showBreadcrumbs = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false

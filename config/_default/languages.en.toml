@@ -1,0 +1,22 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Karthik's Notes"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Technical notes on systems programming, ML, and quantitative finance"
+
+[params.author]
+  name = "Karthik Yadav"
+  headline = "CS @ VIT Vellore"
+  bio = "Systems programming, applied ML, quantitative finance"
+  links = [
+    { github = "https://github.com/zarouz" },
+    { linkedin = "https://linkedin.com/in/karthikyadav" },
+    { link = "https://zarouz.github.io" },
+  ]

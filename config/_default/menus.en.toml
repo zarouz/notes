@@ -1,0 +1,9 @@
+[[main]]
+  name = "Portfolio"
+  url = "https://zarouz.github.io"
+  weight = 10
+
+[[footer]]
+  name = "Portfolio"
+  url = "https://zarouz.github.io"
+  weight = 10
